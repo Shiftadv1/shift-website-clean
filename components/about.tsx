@@ -3,7 +3,7 @@
 import { Check } from "lucide-react"
 
 const highlights = [
-  "",
+  "Sustainable solutions for long-term growth",
   "Partnership built on trust and transparency",
   "Sustainable solutions for long-term growth",
   "Impactful strategies that drive real results",
