@@ -15,6 +15,7 @@ export default function Home() {
       <Hero />
       <Marquee />
       <About />
+      <Services />
 <div className="my-16 overflow-hidden rounded-2xl">
   <img
     src="/images/our-services.png"
@@ -22,7 +23,6 @@ export default function Home() {
     className="w-full h-auto"
   />
 </div>
-      <Services />
       <Vision />
       <Values />
       <Contact />
