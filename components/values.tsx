@@ -35,25 +35,6 @@ const values = [
   },
 ]
 
-const pillars = [
-  {
-    title: "STRATEGY",
-    description: "Insight-led strategies that drive growth.",
-  },
-  {
-    title: "CREATIVITY",
-    description: "Bold ideas that inspire and connect.",
-  },
-  {
-    title: "PARTNERSHIP",
-    description: "Collaborative. Transparent. Results-focused.",
-  },
-  {
-    title: "PERFORMANCE",
-    description: "Data-driven execution with real impact.",
-  },
-]
-
 export function Values() {
   return (
     <section id="values" className="py-24 bg-card">
