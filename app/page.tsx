@@ -1,10 +1,10 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { Marquee } from "@/components/marquee"
-import { Services } from "@/components/vision"
-import { Values } from "@/components/values"
+import { Services } from "@/components/about"
+import { Values } from "@/components/services"
 import { Vision } from "@/components/vision"
-import { About } from "@/components/about"
+import { About } from "@/components/values"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 
