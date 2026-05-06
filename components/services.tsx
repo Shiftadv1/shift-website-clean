@@ -1,6 +1,6 @@
 "use client"
 
-import { Shirt, Gift, Camera, LayoutGrid, Share2, Printer, PenTool } from "lucide-react"
+import { Shirt, Gift, Camera, LayoutGrid, Share2, Printer, PenTool, PartyPopper, Layout } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 const services = [
