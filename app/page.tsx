@@ -19,7 +19,7 @@ export default function Home() {
   <img
     src="/images/our-services.png"
     alt="Our Services"
-    className="w-full h-64 object-cover rounded-2xl"
+    className="w-full h-64 object-contain rounded-2xl"
   />
 </div>
       <Services />
