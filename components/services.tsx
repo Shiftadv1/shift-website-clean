@@ -8,36 +8,43 @@ const services = [
     icon: Shirt,
     title: "Uniform",
     description: "Professional uniforms for every industry.",
+    image: "/images/uniform.png",
   },
   {
     icon: Gift,
     title: "Gift Items",
     description: "Branded gifts that leave a lasting impression.",
+    image: "/images/gift-items.png",
   },
   {
     icon: Camera,
     title: "Photography",
     description: "Professional photography that captures moments and elevates your brand.",
+    image: "/images/photography.png",
   },
   {
     icon: LayoutGrid,
     title: "Event Booths & Stands",
     description: "Creative booths & stand designs that make your brand stand out.",
+    image: "/images/booths.png",
   },
   {
     icon: Share2,
     title: "Social Media & Page Management",
     description: "We manage your presence and grow your audience effectively.",
+    image: "/images/SMm.png",
   },
   {
     icon: Printer,
     title: "Printing Services",
     description: "Digital & offset printing solutions for your brand.",
+    image: "/images/printing.png",
   },
   {
     icon: PenTool,
     title: "Design & Interior Decoration",
     description: "Creative design and interior solutions that reflect your identity and values.",
+    image: "/images/interior-design.png",
   },
 ]
 
@@ -69,9 +76,17 @@ export function Services() {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <CardContent className="p-8">
+                
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="mb-6 h-40 w-full rounded-xl object-cover"
+                  />
+                
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                   <service.icon className="w-6 h-6 text-primary" />
                 </div>
+                
                 <h3 
                   className="text-xl font-semibold mb-3 text-foreground"
                   style={{ fontFamily: 'var(--font-heading)' }}
