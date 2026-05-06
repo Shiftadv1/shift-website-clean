@@ -37,13 +37,14 @@ const values = [
 
 export function Values() {
   return (
-   <section
-  <div className="absolute inset-0 bg-black/75"></div>
+ <section
   id="values"
   className="relative py-24 bg-cover bg-center bg-no-repeat"
   style={{ backgroundImage: "url('/images/world.png')" }}
-  >
-     <div className="relative z-10 container mx-auto px-6">
+>
+  <div className="absolute inset-0 bg-black/75"></div>
+
+  <div className="relative z-10 container mx-auto px-6">
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <span className="text-primary text-sm font-semibold tracking-wider uppercase">Our Values</span>
