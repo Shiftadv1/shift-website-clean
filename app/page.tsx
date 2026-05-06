@@ -15,11 +15,11 @@ export default function Home() {
       <Hero />
       <Marquee />
       <About />
-<div className="my-16">
+<div className="my-16 overflow-hidden rounded-2xl">
   <img
     src="/images/our-services.png"
     alt="Our Services"
-    className="w-full h-64 object-contain rounded-2xl"
+    className="w-full h-auto"
   />
 </div>
       <Services />
