@@ -56,7 +56,7 @@ const services = [
     icon: Layout,
     title: "Signage",
     description: "High-quality signage solutions that enhance visibility and strengthen your brand identity.",
-    image: "/images/signage.jpg",
+    image: "/images/signage.png",
 },
 ]
 
