@@ -46,6 +46,18 @@ const services = [
     description: "Creative design and interior solutions that reflect your identity and values.",
     image: "/images/interior-design.png",
   },
+  {
+    icon: PartyPopper,
+    title: "Modeling & Event Management",
+    description: "Professional models and full event management services to elevate your brand presence.",
+    image: "/images/modeling.png",
+},
+{
+    icon: Layout,
+    title: "Signage",
+    description: "High-quality signage solutions that enhance visibility and strengthen your brand identity.",
+    image: "/images/signage.png",
+},
 ]
 
 export function Services() {
