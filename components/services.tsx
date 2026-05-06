@@ -50,13 +50,13 @@ const services = [
     icon: PartyPopper,
     title: "Modeling & Event Management",
     description: "Professional models and full event management services to elevate your brand presence.",
-    image: "/images/modeling.png",
+    image: "/images/modeling.jpg",
 },
 {
     icon: Layout,
     title: "Signage",
     description: "High-quality signage solutions that enhance visibility and strengthen your brand identity.",
-    image: "/images/signage.png",
+    image: "/images/signage.jpg",
 },
 ]
 
