@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Marquee />
-      <vision />
+      <About />
       <div className="my-16">
   <img
     src="/images/our-services.png"
@@ -23,7 +23,7 @@ export default function Home() {
   />
 </div>
       <Services />
-      <About />
+      <Vision />
       <Values />
       <Contact />
       <Footer />
