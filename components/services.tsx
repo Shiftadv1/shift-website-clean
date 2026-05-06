@@ -66,7 +66,14 @@ export function Services() {
             tailored to your unique needs and goals.
           </p>
         </div>
-
+<div className="my-16 overflow-hidden rounded-2xl">
+  <img
+    src="/images/our-services.png"
+    alt="Our Services"
+    className="w-full h-auto block"
+  />
+</div>
+        
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
