@@ -75,25 +75,7 @@ export function Values() {
             </div>
           ))}
         </div>
-
-        {/* Four Pillars */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {pillars.map((pillar, index) => (
-            <div
-              key={pillar.title}
-              className="text-center p-8 bg-background rounded-xl border border-border hover:border-primary/30 transition-all"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <h3 
-                className="text-lg font-bold text-primary mb-3"
-                style={{ fontFamily: 'var(--font-heading)' }}
-              >
-                {pillar.title}
-              </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{pillar.description}</p>
-            </div>
-          ))}
-        </div>
+        
       </div>
     </section>
   )
