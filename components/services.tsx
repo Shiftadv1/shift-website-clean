@@ -96,12 +96,6 @@ export function Services() {
             >
               <CardContent className="p-8">
                 
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="mb-6 h-56 w-full rounded-xl object-contain"
-                  />
-                
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                   <service.icon className="w-6 h-6 text-primary" />
                 </div>
