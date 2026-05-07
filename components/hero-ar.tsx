@@ -45,7 +45,7 @@ export function HeroAr() {
           </h1>
 
           <p
-            className={`text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4 leading-relaxed font-medium transition-all duration-700 delay-200 ${
+            className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-4 leading-relaxed font-medium transition-all duration-700 delay-200 ${
               mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
@@ -53,7 +53,7 @@ export function HeroAr() {
           </p>
           
           <p
-            className={`text-base text-muted-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed transition-all duration-700 delay-250 ${
+            className="text-base text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed transition-all duration-700 delay-250 ${
               mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
