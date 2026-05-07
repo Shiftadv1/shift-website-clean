@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ShiftLogo } from "@/components/shift-logo"
+import { usePathname } from "next/navigation"
 
 const navItems = [
   { label: "الخدمات", href: "#services" },
@@ -16,6 +17,9 @@ const navItems = [
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  
+  const pathname = usePathname()
+  const isArabic = pathname === "/ar"
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
@@ -44,10 +48,10 @@ export function Header() {
             </Button>
             
 <Link
-  href="/"
+  href={isArabic ? "/" : "/ar"}
   className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
 >
-  English
+  {isArabic ? "English" : "العربية"}
 </Link>
           </div>
 
