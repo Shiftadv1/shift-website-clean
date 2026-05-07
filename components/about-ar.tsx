@@ -22,7 +22,7 @@ export function AboutAr() {
               className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
-              نصنع الزخم ونحقق تأثيراً مستداماً & <span className="text-primary">تأثيراً مستداماً</span>
+              نصنع الزخم ونحقق تأثيراً مستداماً <span className="text-primary"></span>
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
