@@ -19,13 +19,13 @@ const footerLinks = {
 
 export function FooterAr() {
   return (
-    <footer className="bg-card border-t border-border">
+    <footer dir="rtl" className="bg-card border-t border-border">
       <div className="container mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 text-right">
 
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <div dir="ltr">
+            <div dir="ltr" className="flex justify-end">
               <ShiftLogo size="lg" showTagline />
             </div>
 
@@ -35,28 +35,29 @@ export function FooterAr() {
             </p>
 
             <div className="mt-6 space-y-3">
-              <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="flex items-center justify-start gap-3 text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary" />
                 <span className="text-sm">الرياض، المملكة العربية السعودية</span>
               </div>
 
-<div className="flex items-center gap-3 text-muted-foreground">
-  <Phone className="w-4 h-4 text-primary" />
-  <a
-    href="tel:+966510360025"
-    className="text-sm hover:text-primary transition-colors inline-block"
-    dir="ltr"
-    style={{ unicodeBidi: "embed" }}
-  >
-    +966 51 036 0025
-  </a>
-</div>
+              <div className="flex items-center justify-start gap-3 text-muted-foreground">
+                <Phone className="w-4 h-4 text-primary" />
+                <a
+                  href="tel:+966510360025"
+                  className="text-sm hover:text-primary transition-colors inline-block"
+                  dir="ltr"
+                  style={{ unicodeBidi: "embed" }}
+                >
+                  +966 51 036 0025
+                </a>
+              </div>
 
-              <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="flex items-center justify-start gap-3 text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
                 <a
                   href="mailto:shift.sa00@gmail.com"
                   className="text-sm hover:text-primary transition-colors"
+                  dir="ltr"
                 >
                   shift.sa00@gmail.com
                 </a>
