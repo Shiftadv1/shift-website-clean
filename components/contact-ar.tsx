@@ -30,8 +30,7 @@ const [formData, setFormData] = useState({
               className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
-              جاهز <span className="text-primary">للارتقاء</span> بعلامتك التجارية?
-            </h2>
+هل أنت <span className="text-primary">جاهزاً للارتقاء</span> بعلامتك التجارية؟
             <p className="text-muted-foreground text-lg leading-relaxed mb-12">
               دعنا نتحدث عن مشروعك القادم. سواء كنت تبحث عن تطوير شامل لهوية علامتك التجارية أو عن حملة إعلانية موجهة، نحن هنا لمساعدتك.
             </p>
