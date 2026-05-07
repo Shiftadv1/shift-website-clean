@@ -1,24 +1,24 @@
 import { Header } from "@/components/header"
-import { Hero } from "@/components/hero"
+import { HeroAr } from "@/components/hero-ar"
 import { Marquee } from "@/components/marquee"
-import { About } from "@/components/about"
-import { Services } from "@/components/services"
-import { Vision } from "@/components/vision"
-import { Values } from "@/components/values"
-import { Contact } from "@/components/contact"
+import { AboutAr } from "@/components/about-ar"
+import { ServicesAr } from "@/components/services-ar"
+import { VisionAr } from "@/components/vision-ar"
+import { ValuesAr } from "@/components/values-ar"
+import { ContactAr } from "@/components/contact-ar"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
     <main dir="rtl" className="min-h-screen">
       <Header />
-      <Hero />
+      <HeroAr />
       <Marquee />
-      <About />
-      <Services />
-      <Vision />
-      <Values />
-      <Contact />
+      <AboutAr />
+      <ServicesAr />
+      <VisionAr />
+      <ValuesAr />
+      <ContactAr />
       <Footer />
     </main>
   )
