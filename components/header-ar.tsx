@@ -15,7 +15,7 @@ const navItems = [
   { label: "تواصل معنا", href: "#contact" },
 ]
 
-export function Header() {
+export function HeaderAr() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   
   const pathname = usePathname()
@@ -81,7 +81,7 @@ export function Header() {
               ))}
               <Button asChild className="mt-2">
                 <Link href="#contact" onClick={() => setIsMenuOpen(false)}>
-                  Get in Touch
+                  تواصل معنا
                 </Link>
               </Button>
             </div>
