@@ -54,14 +54,14 @@ export function ValuesAr() {
           </span>
 
           <h2 
-            className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance"
+            className="text-5xl md:text-6xl font-bold mt-4 mb-6 text-balance"
             style={{ fontFamily: 'var(--font-heading)' }}
           >
             ماذا تمثل
             <span className="text-primary"> SHIFT </span>
           </h2>
 
-          <p className="text-muted-foreground text-lg leading-relaxed">
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
             كل حرف في كلمة SHIFT يمثل قيمة أساسية تقود كل ما نقوم به.
           </p>
         </div>
@@ -87,7 +87,7 @@ export function ValuesAr() {
 
               </div>
 
-              <h3 className="text-sm font-semibold tracking-wider mb-2 text-foreground">
+              <h3 className="text-lg font-bold tracking-wider mb-3 text-foreground">
                 {value.title}
               </h3>
 
