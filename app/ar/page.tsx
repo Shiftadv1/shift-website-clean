@@ -1,6 +1,6 @@
 import { HeaderAr } from "@/components/header-ar"
 import { HeroAr } from "@/components/hero-ar"
-import { Marquee } from "@/components/marquee"
+import { MarqueeAr } from "@/components/marquee-ar"
 import { AboutAr } from "@/components/about-ar"
 import { ServicesAr } from "@/components/services-ar"
 import { VisionAr } from "@/components/vision-ar"
@@ -13,7 +13,7 @@ export default function Home() {
     <main dir="rtl" className="min-h-screen">
       <HeaderAr />
       <HeroAr />
-      <Marquee />
+      <MarqueeAr />
       <AboutAr />
       <ServicesAr />
       <VisionAr />
