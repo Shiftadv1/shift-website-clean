@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button"
 import { ShiftLogo } from "@/components/shift-logo"
 
 const navItems = [
-  { label: "Services", href: "#services" },
-  { label: "Values", href: "#values" },
-  { label: "Vision", href: "#vision" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "الخدمات", href: "#services" },
+  { label: "القيم", href: "#values" },
+  { label: "الرؤية", href: "#vision" },
+  { label: "من نحن", href: "#about" },
+  { label: "تواصل معنا", href: "#contact" },
 ]
 
 export function Header() {
@@ -40,7 +40,7 @@ export function Header() {
               </Link>
             ))}
             <Button asChild>
-              <Link href="#contact">Get in Touch</Link>
+              <Link href="#contact">تواصل معنا</Link>
             </Button>
             
             <Link
