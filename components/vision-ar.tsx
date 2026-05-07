@@ -76,7 +76,7 @@ export function VisionAr() {
               <keyword.icon className="w-5 h-5 text-primary" />
 
               <span 
-                className="font-semibold text-foreground"
+                className="text-xl md:text-2xl font-bold text-foreground"
                 style={{ fontFamily: 'var(--font-heading)' }}
               >
                 {keyword.label}
