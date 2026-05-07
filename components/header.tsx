@@ -23,7 +23,9 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="hover:opacity-80 transition-opacity">
-            <ShiftLogo size="md" showTagline />
+            <div dir="ltr">
+  <ShiftLogo size="md" showTagline />
+</div>
           </Link>
 
           {/* Desktop Navigation */}
