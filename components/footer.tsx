@@ -24,7 +24,9 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <ShiftLogo size="lg" showTagline />
+            <div dir="ltr">
+  <ShiftLogo size="lg" showTagline />
+</div>
             <p className="mt-6 text-muted-foreground leading-relaxed">
               A full-service advertising agency based in Riyadh, Saudi Arabia. We shift brands forward.
             </p>
