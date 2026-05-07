@@ -43,12 +43,11 @@ export function Header() {
               <Link href="#contact">تواصل معنا</Link>
             </Button>
             
-            <Link
-             href="/ar"
-             className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-            >
-             العربية
-           </Link>
+<Link
+  href="/"
+  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+>
+  English
           </div>
 
           {/* Mobile Menu Button */}
