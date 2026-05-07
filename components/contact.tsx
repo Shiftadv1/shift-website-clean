@@ -89,13 +89,14 @@ export function Contact() {
               Fill out the form below and we&apos;ll get back to you within 24 hours.
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form action="https://formspree.io/f/xxxxxxx" method="POST" className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="text-sm text-muted-foreground mb-2 block font-medium">
                     Your Name
                   </label>
                   <Input
+                    name="name"
                     id="name"
                     placeholder="John Doe"
                     value={formData.name}
@@ -109,6 +110,7 @@ export function Contact() {
                     Email Address
                   </label>
                   <Input
+                    name="email"
                     id="email"
                     type="email"
                     placeholder="john@company.com"
@@ -125,6 +127,7 @@ export function Contact() {
                   Company Name
                 </label>
                 <Input
+                  name="company"
                   id="company"
                   placeholder="Your Company"
                   value={formData.company}
@@ -138,6 +141,7 @@ export function Contact() {
                   Project Details
                 </label>
                 <textarea
+                  name="message"
                   id="message"
                   placeholder="Tell us about your project..."
                   value={formData.message}
