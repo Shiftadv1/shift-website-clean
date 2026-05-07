@@ -8,11 +8,11 @@ import { ShiftLogo } from "@/components/shift-logo"
 import { usePathname } from "next/navigation"
 
 const navItems = [
-  { label: "الخدمات", href: "#services" },
-  { label: "القيم", href: "#values" },
-  { label: "الرؤية", href: "#vision" },
-  { label: "من نحن", href: "#about" },
-  { label: "تواصل معنا", href: "#contact" },
+  { label: "Services", href: "#services" },
+  { label: "Values", href: "#values" },
+  { label: "Vision", href: "#vision" },
+  { label: "About", href: "#about" },
+  { label: "Contact", href: "#contact" },
 ]
 
 export function Header() {
