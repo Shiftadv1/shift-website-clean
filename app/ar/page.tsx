@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+import { HeaderAr } from "@/components/header-ar"
 import { HeroAr } from "@/components/hero-ar"
 import { Marquee } from "@/components/marquee"
 import { AboutAr } from "@/components/about-ar"
