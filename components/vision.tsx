@@ -55,7 +55,7 @@ export function Vision() {
             >
               <keyword.icon className="w-5 h-5 text-primary" />
               <span 
-                className="font-semibold text-foreground"
+                className="text-2xl md:text-3xl font-bold text-foreground"
                 style={{ fontFamily: 'var(--font-heading)' }}
               >
                 {keyword.label}
