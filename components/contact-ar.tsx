@@ -56,9 +56,14 @@ const [formData, setFormData] = useState({
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">اتصل بنا</p>
-                  <a href="tel:+966510360025" className="text-foreground hover:text-primary transition-colors font-medium">
-                    +966 51 036 0025
-                  </a>
+<a
+  href="tel:+966510360025"
+  className="font-medium hover:text-primary transition-colors inline-block"
+  dir="ltr"
+  style={{ unicodeBidi: "embed" }}
+>
+  +966 51 036 0025
+</a>
                 </div>
               </div>
 
