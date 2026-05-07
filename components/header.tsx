@@ -44,7 +44,7 @@ export function Header() {
               </Link>
             ))}
             <Button asChild>
-              <Link href="#contact">تواصل معنا</Link>
+              <Link href="#contact">Get in Touch</Link>
             </Button>
             
 <Link
