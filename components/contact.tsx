@@ -89,7 +89,7 @@ export function Contact() {
               Fill out the form below and we&apos;ll get back to you within 24 hours.
             </p>
 
-            <form action="https://formspree.io/f/xxxxxxx" method="POST" className="space-y-6">
+            <form action="https://formspree.io/f/xlgzllqr" method="POST" className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="text-sm text-muted-foreground mb-2 block font-medium">
