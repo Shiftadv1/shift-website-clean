@@ -11,7 +11,7 @@ import { Footer } from "@/components/footer"
 export default function Home() {
   return (
     <main dir="rtl" className="min-h-screen">
-      <Header />
+      <HeaderAr />
       <HeroAr />
       <Marquee />
       <AboutAr />
