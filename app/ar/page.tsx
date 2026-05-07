@@ -6,7 +6,7 @@ import { ServicesAr } from "@/components/services-ar"
 import { VisionAr } from "@/components/vision-ar"
 import { ValuesAr } from "@/components/values-ar"
 import { ContactAr } from "@/components/contact-ar"
-import { Footer } from "@/components/footer"
+import { FooterAr } from "@/components/footer-ar"
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
       <VisionAr />
       <ValuesAr />
       <ContactAr />
-      <Footer />
+      <FooterAr />
     </main>
   )
 }
