@@ -40,6 +40,13 @@ export function Header() {
             <Button asChild>
               <Link href="#contact">Get in Touch</Link>
             </Button>
+            
+            <Link
+             href="/ar"
+             className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+            >
+             العربية
+           </Link>
           </div>
 
           {/* Mobile Menu Button */}
