@@ -48,6 +48,7 @@ export function Header() {
   className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
 >
   English
+</Link>
           </div>
 
           {/* Mobile Menu Button */}
