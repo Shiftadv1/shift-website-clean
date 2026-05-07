@@ -25,15 +25,15 @@ export function AboutAr() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Shift is a full-service advertising agency based in Riyadh, Saudi Arabia. 
-                We partner with ambitious brands to build meaningful connections through 
-                creativity, strategy and measurable results.
+                شيفت هي وكالة إعلانات متكاملة مقرها الرياض، المملكة العربية السعودية 
+                نتعاون مع العلامات التجارية الطموحة لبناء علاقات مؤثرة من خلال
+                الإبداع والاستراتيجية وتحقيق نتائج ملموسة وقابلة للقياس
               </p>
               <p>
-                At Shift, we go beyond campaigns. We create sustainable solutions that drive 
-                real impact and sales growth. Through creativity, strategy and innovation, 
-                we help brands build meaningful connections that deliver measurable impact 
-                & sales growth.
+                في شيفت، نحن نتجاوز مفهوم الحملات الإعلانية التقليدية 
+                نبتكر حلولاً مستدامة تحقق تأثيراً حقيقياً ونمواً في المبيعات 
+                ومن خلال الإبداع والاستراتيجية والابتكار، نساعد العلامات التجارية
+                على بناء علاقات مؤثرة تحقق نتائج ملموسة ونمواً فعلياً في المبيعات
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ export function AboutAr() {
               className="text-2xl font-bold mb-8 text-foreground"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
-              Future Forward. Impact That Grows.
+              نحو المستقبل. تأثير ينمو باستمرار.
             </h3>
             <div className="space-y-6">
               {highlights.map((highlight, index) => (
