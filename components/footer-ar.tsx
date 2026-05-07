@@ -42,13 +42,14 @@ export function FooterAr() {
 
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-4 h-4 text-primary" />
-                <a
-                  href="tel:+966510360025"
-                  className="text-sm hover:text-primary transition-colors"
-                >
-                  +966 51 036 0025
-                </a>
-              </div>
+               <div dir="ltr">
+  <a
+    href="tel:+966510360025"
+    className="text-sm hover:text-primary transition-colors"
+  >
+    +966 51 036 0025
+  </a>
+</div>
 
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
