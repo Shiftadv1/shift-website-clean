@@ -42,8 +42,6 @@ export function FooterAr() {
 
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-4 h-4 text-primary" />
-
-<Phone className="w-4 h-4 text-primary" />
 <a
   href="tel:+966510360025"
   className="text-sm hover:text-primary transition-colors inline-block"
