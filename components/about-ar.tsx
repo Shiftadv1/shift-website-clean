@@ -16,12 +16,13 @@ export function AboutAr() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div>
-            <span className="text-primary text-sm font-semibold tracking-wider uppercase">About SHIFT</span>
+            <span className="text-primary text-sm font-semibold tracking-wider uppercase">عن شيفت
+</span>
             <h2 
               className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-balance"
               style={{ fontFamily: 'var(--font-heading)' }}
             >
-              We Create Momentum & <span className="text-primary">Sustainable Impact</span>
+              نصنع الزخم ونحقق تأثيراً مستداماً & <span className="text-primary">Sustainable Impact</span>
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
