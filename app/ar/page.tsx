@@ -7,6 +7,7 @@ import { VisionAr } from "@/components/vision-ar"
 import { ValuesAr } from "@/components/values-ar"
 import { ContactAr } from "@/components/contact-ar"
 import { FooterAr } from "@/components/footer-ar"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Home() {
   return (
@@ -21,5 +22,6 @@ export default function Home() {
       <ContactAr />
       <FooterAr />
     </main>
+    <WhatsAppButton />
   )
 }
