@@ -45,8 +45,8 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email us at</p>
-                  <a href="mailto:shift.sa00@gmail.com" className="text-foreground hover:text-primary transition-colors font-medium">
-                    shift.sa00@gmail.com
+                  <a href="mailto:Info@shiftadv.net" className="text-foreground hover:text-primary transition-colors font-medium">
+                    Info@shiftadv.net
                   </a>
                 </div>
               </div>
@@ -113,7 +113,7 @@ export function Contact() {
                     name="email"
                     id="email"
                     type="email"
-                    placeholder="john@company.com"
+                    placeholder="example@company.com"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="bg-background border-border focus:border-primary"
