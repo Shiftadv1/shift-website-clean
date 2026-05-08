@@ -68,7 +68,7 @@ export function Contact() {
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Visit us at</p>
+                  <p className="text-sm text-muted-foreground">Location</p>
                   <p className="text-foreground font-medium">
                     Riyadh, Saudi Arabia
                   </p>
