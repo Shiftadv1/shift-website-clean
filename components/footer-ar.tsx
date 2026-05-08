@@ -55,11 +55,11 @@ export function FooterAr() {
               <div className="flex items-center justify-start gap-3 text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
                 <a
-                  href="mailto:shift.sa00@gmail.com"
+                  href="mailto:Info@shiftadv.net"
                   className="text-sm hover:text-primary transition-colors"
                   dir="ltr"
                 >
-                  shift.sa00@gmail.com
+                  Info@shiftadv.net
                 </a>
               </div>
             </div>
