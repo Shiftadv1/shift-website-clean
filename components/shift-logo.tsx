@@ -13,12 +13,12 @@ export function ShiftLogo({
   showTagline = false,
 }: ShiftLogoProps) {
 
-  const sizes = {
-    sm: { width: 90, height: 28 },
-    md: { width: 120, height: 38 },
-    lg: { width: 170, height: 55 },
-    xl: { width: 240, height: 75 },
-  }
+const sizes = {
+  sm: { width: 120, height: 38 },
+  md: { width: 170, height: 55 },
+  lg: { width: 240, height: 75 },
+  xl: { width: 320, height: 100 },
+}
 
   const config = sizes[size]
 
