@@ -7,6 +7,7 @@ import { Vision } from "@/components/vision"
 import { Values } from "@/components/values"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Home() {
   return (
@@ -21,5 +22,6 @@ export default function Home() {
       <Contact />
       <Footer />
     </main>
+    <WhatsAppButton />
   )
 }
