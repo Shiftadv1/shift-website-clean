@@ -55,10 +55,10 @@ export function ContactAr() {
                   </p>
 
                   <a
-                    href="mailto:shift.sa00@gmail.com"
+                    href="mailto:Info@shiftadv.net"
                     className="text-foreground hover:text-primary transition-colors font-medium"
                   >
-                    shift.sa00@gmail.com
+                    Info@shiftadv.net
                   </a>
                 </div>
               </div>
