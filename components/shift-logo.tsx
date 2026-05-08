@@ -32,11 +32,7 @@ export function ShiftLogo({
         priority
       />
 
-      {showTagline && (
-        <span className="text-[10px] text-muted-foreground mt-1 tracking-wider">
-          Shift to better
-        </span>
-      )}
+
     </div>
   )
 }
