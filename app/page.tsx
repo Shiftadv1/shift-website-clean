@@ -11,17 +11,20 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <Header />
-      <Hero />
-      <Marquee />
-      <About />
-      <Services />
-      <Vision />
-      <Values />
-      <Contact />
-      <Footer />
-    </main>
-    <WhatsAppButton />
+    <>
+      <main className="min-h-screen">
+        <Header />
+        <Hero />
+        <Marquee />
+        <About />
+        <Services />
+        <Vision />
+        <Values />
+        <Contact />
+        <Footer />
+      </main>
+
+      <WhatsAppButton />
+    </>
   )
 }
