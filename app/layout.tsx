@@ -16,9 +16,19 @@ const bebasNeue = Bebas_Neue({
 })
 
 export const metadata: Metadata = {
-  title: 'SHIFT | We Shift Brands Forward - Creative Advertising Agency',
-  description: 'SHIFT is a full-service advertising agency based in Riyadh, Saudi Arabia. We partner with ambitious brands to build meaningful connections through creativity, strategy and measurable results.',
-  keywords: ['advertising agency', 'Riyadh', 'Saudi Arabia', 'branding', 'creative agency', 'digital marketing', 'SHIFT', 'KSA'],
+  title: "SHIFT Advertising Agency",
+  description:
+    "SHIFT is a creative advertising agency in Riyadh specializing in branding, printing, uniforms, event booths, photography, and marketing solutions.",
+  keywords: [
+    "Advertising Agency Riyadh",
+    "Branding Saudi Arabia",
+    "Printing Services",
+    "Uniform Supplier",
+    "Event Booths",
+    "Photography",
+    "Marketing Agency",
+    "SHIFT",
+  ],
   authors: [{ name: 'SHIFT Advertisement Agency' }],
   openGraph: {
     title: 'SHIFT | We Shift Brands Forward',
